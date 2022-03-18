@@ -1,0 +1,13 @@
+#programs
+alias ls="ls --color"
+alias ll="ls -la"
+alias cp="cp -i"
+alias grep="grep --color=always"
+alias ok="okular"
+alias gv="gwenview"
+
+#device specific
+alias fanmode="cat /sys/devices/platform/asus-nb-wmi/throttle_thermal_policy"
+alias turbo="cat /sys/devices/system/cpu/cpufreq/boost"
+
+

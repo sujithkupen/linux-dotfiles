@@ -30,7 +30,7 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 
 #I use arch btw
 [[ "$(cat /proc/$PPID/comm)" =~ "(konsole|urxvt|xterm)" ]] && neofetch
-[[ "$(cat /proc/$PPID/comm)" =~ "(yakuake|electron)" ]] && pfetch 
+#[[ "$(cat /proc/$PPID/comm)" =~ "(yakuake|electron)" ]] && pfetch 
 
 #should be last
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
