@@ -2,6 +2,10 @@
 alias ls="ls --color"
 alias ll="ls -la"
 alias cp="cp -i"
+alias mv="mv -i"
+alias rm="rm -i"
+alias vim="nvim"
+
 alias grep="grep --color=always"
 alias ok="okular"
 alias gv="gwenview"
