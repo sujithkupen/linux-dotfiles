@@ -1,4 +1,4 @@
-#sujith's minimal zshrc config(manipulated regularly)
+#minimal zshrc config
 
 #cd into folder without cd cmd
 setopt autocd
@@ -19,7 +19,7 @@ _comp_options+=(globdots)
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 eval "$(starship init zsh)"
-
+eval "$(zoxide init zsh)"
 
 #source aliases standalone file
 source ~/.zsh_aliases
@@ -34,4 +34,6 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 
 #should be last
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
+
+
 
